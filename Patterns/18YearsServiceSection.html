@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18 Years Service Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#E8650A', /* MrChimney Orange */
+                        dark: '#1A1A18',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased font-sans">
+    
+    <section class="w-full py-16 md:py-24 bg-gray-50/50">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
+            
+            <!-- Section Header -->
+            <div class="mb-16 md:mb-20 max-w-4xl">
+                <div class="text-primary font-bold uppercase tracking-[0.65px] text-[16px] mb-4">
+                    Why Mr. Chimney Sweep
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-[60px] font-black text-dark leading-[1.1]">
+                    18 Years of <span class="text-primary">Honest</span><br class="hidden md:block"> Service in Los Angeles
+                </h2>
+            </div>
+
+            <!-- Content Grid 50/50 -->
+            <div class="flex flex-col lg:flex-row gap-16 lg:gap-20">
+                
+                <!-- Left Side: List Items -->
+                <div class="w-full lg:w-[55%] flex flex-col gap-10 md:gap-12">
+                    
+                    <!-- Item 1 -->
+                    <div class="flex gap-6 items-start">
+                        <div class="text-[48px] font-black text-primary leading-none mt-[-5px]">1</div>
+                        <div>
+                            <h3 class="text-[20px] font-bold text-dark mb-2">CSIA Certified Expertise</h3>
+                            <p class="text-dark/80 text-[16px] leading-[24px]">
+                                Fully certified by the Chimney Safety Institute of America — trained to the highest professional standards in the industry.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="flex gap-6 items-start">
+                        <div class="text-[48px] font-black text-primary leading-none mt-[-5px]">2</div>
+                        <div>
+                            <h3 class="text-[20px] font-bold text-dark mb-2">18 Years in the LA Market</h3>
+                            <p class="text-dark/80 text-[16px] leading-[24px]">
+                                As a native Angelino, we understand local homes, local conditions, and local needs better than anyone.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="flex gap-6 items-start">
+                        <div class="text-[48px] font-black text-primary leading-none mt-[-5px]">3</div>
+                        <div>
+                            <h3 class="text-[20px] font-bold text-dark mb-2">Family Owned & Community Focused</h3>
+                            <p class="text-dark/80 text-[16px] leading-[24px]">
+                                Founded on affordability, honesty, and loyalty. We treat every customer the way we'd want our own family treated.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="flex gap-6 items-start">
+                        <div class="text-[48px] font-black text-primary leading-none mt-[-5px]">4</div>
+                        <div>
+                            <h3 class="text-[20px] font-bold text-dark mb-2">Transparent, Affordable Pricing</h3>
+                            <p class="text-dark/80 text-[16px] leading-[24px]">
+                                No hidden fees, no upselling, no surprises. You'll always know exactly what you're paying for and why.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="flex gap-6 items-start">
+                        <div class="text-[48px] font-black text-primary leading-none mt-[-5px]">5</div>
+                        <div>
+                            <h3 class="text-[20px] font-bold text-dark mb-2">5-Star Service from the First Call</h3>
+                            <p class="text-dark/80 text-[16px] leading-[24px]">
+                                From scheduling to cleanup, every step of the experience is handled with professionalism and personal attention.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Side: Image -->
+                <div class="w-full lg:w-[45%]">
+                    <!-- Added a sticky positioning so the image scrolls nicely if it's shorter than the list, or we just let it fill the height -->
+                    <div class="w-full h-full min-h-[400px] sm:min-h-[500px] lg:h-full lg:min-h-0 relative">
+                        <img src="../Assets/why-us-bg.png" alt="Beautiful modern fireplace in a Los Angeles home" class="w-full h-full object-cover">
+                        <!-- Shadow effect applied as a border box or explicitly via class to match Figma if needed -->
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+</html>

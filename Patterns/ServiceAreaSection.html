@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Area Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#E8650A', /* MrChimney Orange */
+                        dark: '#1A1A18',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased font-sans">
+    
+    <section class="w-full bg-dark py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
+            
+            <!-- Header Section -->
+            <div class="max-w-3xl mx-auto text-center mb-16 md:mb-24">
+                <div class="text-primary font-bold uppercase tracking-[0.65px] text-[16px] mb-4">
+                    Where We Work
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-[48px] font-black text-white leading-tight mb-6">
+                    Proudly Covering <span class="text-primary">Los Angeles</span>
+                </h2>
+                <p class="text-white/90 text-[16px] leading-[24px]">
+                    Based in Sun Valley, we reach homeowners across the greater Los Angeles area. If you're in the LA basin, we've got you covered.
+                </p>
+            </div>
+
+            <!-- Cities List -->
+            <div class="mb-10 w-full">
+                <p class="text-white/80 text-[16px] leading-[26px] tracking-wide">
+                    Los Angeles, Pasadena, Burbank, Altadena, Sierra Madre, Alhambra, Glendale, San Fernando, West Hollywood, Beverly Hills, Santa Monica, Culver City, Marina del Rey, El Monte, Malibu, Pacific Palisades, Bel Air, Santa Clarita
+                </p>
+            </div>
+
+            <!-- Map Container -->
+            <div class="w-full h-[300px] md:h-[400px] bg-gray-800 rounded-sm overflow-hidden relative border border-[#3A3A36]">
+                <!-- Placeholder for the actual map. 
+                     An actual embedded map or a static generated image can be placed here.
+                     Based on the design, it's a grayscale map with specific bounds.
+                -->
+                <img src="../Assets/service-area-map.png" alt="Map of Los Angeles Service Area" class="w-full h-full object-cover">
+                
+                <!-- Optional interactive iframe version commented out for development -->
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1692120.370396443!2d-119.50346337500002!3d34.19515640306352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" class="w-full h-full border-0 grayscale opacity-80" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

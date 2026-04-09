@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#E8650A', /* MrChimney Orange */
+                        dark: '#1A1A18',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased font-sans">
+    
+    <!-- Testimonial Section -->
+    <section class="flex flex-col lg:flex-row w-full bg-dark min-h-[600px]">
+        
+        <!-- Left Side Image -->
+        <div class="w-full lg:w-1/2 h-[400px] sm:h-[500px] lg:h-auto order-2 lg:order-1 relative">
+            <img src="../Assets/testimonial-bg.png" alt="Beautiful modern fireplace in a Los Angeles home" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Right Side Content -->
+        <div class="w-full lg:w-1/2 flex items-center relative overflow-hidden p-8 md:p-16 lg:p-24 order-1 lg:order-2">
+            
+            <!-- Large decorative background quote mark -->
+            <div class="absolute -top-12 left-4 md:left-12 text-[300px] text-primary opacity-10 font-serif leading-none select-none pointer-events-none" aria-hidden="true">
+                &ldquo;
+            </div>
+            
+            <div class="relative z-10 max-w-xl">
+                <!-- Tagline -->
+                <div class="text-primary font-bold tracking-[0.65px] text-[15px] uppercase mb-8">
+                    What Our Customers Say
+                </div>
+                
+                <!-- 5 Stars -->
+                <div class="flex gap-2 mb-8 text-primary">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                </div>
+
+                <!-- Main Heading -->
+                <h2 class="text-[36px] md:text-[44px] font-black text-white leading-[1.1] mb-6">
+                    Beyond What We <span class="text-primary">Expected</span>
+                </h2>
+
+                <!-- Testimonial Text -->
+                <p class="text-white/90 text-[18px] leading-[30px] mb-8">
+                    "Mr. Chimney Sweep came out the same week I called, showed up on time, and explained everything clearly before starting. My fireplace is working better than it ever has. Honest pricing, no surprises. Highly recommend to any LA homeowner."
+                </p>
+
+                <!-- Customer Details -->
+                <div class="mb-12">
+                    <div class="text-white font-bold text-[18px] mb-1">Maria T., Los Angeles CA</div>
+                    <div class="text-primary font-bold text-[16px]">Google</div>
+                </div>
+
+                <!-- Navigation Controls -->
+                <div class="flex gap-4">
+                    <button class="w-[48px] h-[48px] border-2 border-primary flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-dark focus:ring-primary" aria-label="Previous Testimonial">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                    </button>
+                    <button class="w-[48px] h-[48px] border-2 border-primary flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-dark focus:ring-primary" aria-label="Next Testimonial">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>

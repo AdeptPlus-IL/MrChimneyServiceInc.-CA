@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#E8650A', /* MrChimney Orange */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased font-sans">
+    
+    <section class="relative w-full min-h-[600px] md:min-h-[680px] flex items-center justify-center py-20">
+        <!-- Background Image & Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="../Assets/service-hero-bg.png" alt="Chimney Sweeping Professional" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-[#1A1A18] opacity-75"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+            
+            <!-- Breadcrumbs / Top Label -->
+            <div class="text-white text-[12px] sm:text-[13px] uppercase tracking-[0.7px] mb-6">
+                <a href="/" class="hover:text-primary transition-colors">Home</a> <span class="mx-1">&gt;</span> <a href="/services" class="hover:text-primary transition-colors">Services</a> <span class="mx-1">&gt;</span> <span class="opacity-[0.85]">Chimney Sweeping & Cleaning</span>
+            </div>
+
+            <!-- Heading -->
+            <h1 class="text-5xl sm:text-6xl md:text-[72px] font-black text-white leading-[1.1] mb-8 tracking-[-1px]">
+                Professional Chimney <br class="hidden md:block">
+                <span class="text-primary">Sweeping</span> & Cleaning <br class="hidden md:block">
+                in Los Angeles
+            </h1>
+
+            <!-- Paragraph -->
+            <p class="text-[16px] md:text-[18px] text-white leading-[1.6] max-w-3xl mx-auto mb-10">
+                Creosote, soot, and blockages don't stand a chance. We clean your chimney thoroughly, efficiently, and without the mess — backed by 18 years of LA experience.
+            </p>
+
+            <!-- Buttons Setup -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full sm:w-auto">
+                <a href="#" class="w-full sm:w-auto bg-primary hover:bg-[#C25105] text-white font-bold text-[14px] uppercase tracking-[0.35px] px-8 py-4 transition-colors text-center inline-block">
+                    Get a Free Estimate
+                </a>
+                <a href="tel:8186194758" class="w-full sm:w-auto bg-transparent border-2 border-white hover:bg-white hover:text-[#1A1A18] text-white font-bold text-[14px] uppercase tracking-[0.35px] px-8 py-3.5 transition-colors text-center inline-block">
+                    Call (818) 619-4758
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
