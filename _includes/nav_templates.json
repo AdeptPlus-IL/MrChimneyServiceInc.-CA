@@ -1,5 +1,5 @@
 {
   "nav_item": "<a href=\"{{href}}\" class=\"hover:text-primary transition-colors duration-300\">{{label}}</a>",
-  "mobile_nav_item": "<a href=\"{{href}}\" class=\"block px-3 py-2 text-base font-bold hover:text-primary transition-colors\">{{label}}</a>",
-  "footer_nav_item": "<li><a href=\"{{href}}\" class=\"text-white text-[16px] leading-[24px] hover:text-primary transition-colors\">{{label}}</a></li>"
+  "footer_nav_item": "<li><a href=\"{{href}}\" class=\"text-white text-[16px] leading-[24px] hover:text-primary transition-colors\">{{label}}</a></li>",
+  "mobile_nav_item": "<a href=\"{{href}}\" class=\"block px-3 py-2 text-base font-bold hover:text-primary transition-colors\">{{label}}</a>"
 }
