@@ -1,0 +1,3 @@
+{
+  "nav_item": "<a href=\"{{href}}\" class=\"hover:text-primary transition-colors duration-300\">{{label}}</a>"
+}
