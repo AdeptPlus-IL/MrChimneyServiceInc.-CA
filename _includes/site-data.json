@@ -1,0 +1,62 @@
+{
+  "address": {
+    "city": "Sun Valley",
+    "full": "7736 Ferncola Ave, Sun Valley, CA 91352",
+    "full_br": "7736 Ferncola Ave<br>Sun Valley, CA 91352",
+    "map_q": "7736+Ferncola+Ave%2C+Sun+Valley%2C+CA+91352",
+    "state": "CA",
+    "street": "7736 Ferncola Ave",
+    "zip": "91352"
+  },
+  "altName": "",
+  "area": {
+    "1": "San Diego",
+    "2": "San Francisco"
+  },
+  "areaState": "CA",
+  "areas_text": "San Diego, San Francisco",
+  "bestRating": "5",
+  "cert": {
+    "1": "CSIA"
+  },
+  "certs_text": "CSIA",
+  "description": "",
+  "email": "",
+  "founded": "2015",
+  "founder": "Jane Doe",
+  "geo": {
+    "lat": "",
+    "lng": ""
+  },
+  "hours": {
+    "friday": "Friday: 8:00 AM – 5:00 PM",
+    "monday": "Monday: 8:00 AM – 5:00 PM",
+    "saturday": "Saturday: Closed",
+    "sunday": "Sunday: Closed",
+    "thursday": "Thursday: 8:00 AM – 5:00 PM",
+    "tuesday": "Tuesday: 8:00 AM – 5:00 PM",
+    "wednesday": "Wednesday: 8:00 AM – 5:00 PM",
+    "weekday": "Monday - Friday: 8:00 AM – 5:00 PM",
+    "weekend": "Saturday: Closed, Sunday: Closed"
+  },
+  "hours_close": "17:00",
+  "hours_open": "08:00",
+  "hours_text": "Mon-Fri: 8am-5pm",
+  "image": "https://production-cdn.whalesyncusercontent.com/v2/d9aeb357dc2e314177b4b0a2/67c90f9f57ee4273550db7a0/c0c3826f5bb593abf4e4caa6/Screenshot-2026-03-17-at-10.44.51-AM.png",
+  "logo": "https://production-cdn.whalesyncusercontent.com/v2/d9aeb357dc2e314177b4b0a2/67c90f9f57ee4273550db7a0/c0c3826f5bb593abf4e4caa6/Screenshot-2026-03-17-at-10.44.51-AM.png",
+  "name": "Mr Chimney Service Inc.",
+  "phone": "(818) 619-1234",
+  "phone_href": "+18186194758",
+  "priceRange": "$$",
+  "rating": "50",
+  "reviewCount": "280",
+  "service": {
+    "1": "Chimney Sweeping",
+    "2": "Waterproofing"
+  },
+  "services_text": "Chimney Sweeping, Waterproofing",
+  "social": {
+    "facebook": "https://www.facebook.com/p/Mr-Chimney-Sweep-61575721753183/"
+  },
+  "url": "https://example.com"
+}
