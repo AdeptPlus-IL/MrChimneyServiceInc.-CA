@@ -1,10 +1,10 @@
 [
   {
-    "href": "./index.html",
-    "label": "Home"
-  },
-  {
     "href": "./about-us.html",
     "label": "About Us"
+  },
+  {
+    "href": "./index.html",
+    "label": "Home"
   }
 ]
