@@ -1,18 +1,18 @@
 [
   {
-    "href": "./index.html",
-    "label": "Home"
+    "label": "Home",
+    "href": "/"
   },
   {
-    "href": "./services.html",
-    "label": "Services"
+    "label": "About Us",
+    "href": "/about"
   },
   {
-    "href": "./contact-us.html",
-    "label": "Contact Us"
+    "label": "Services",
+    "href": "/services"
   },
   {
-    "href": "./about-us.html",
-    "label": "About Us"
+    "label": "Contact Us",
+    "href": "/contact"
   }
 ]
