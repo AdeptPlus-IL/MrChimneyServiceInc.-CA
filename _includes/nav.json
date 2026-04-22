@@ -1,18 +1,26 @@
 [
   {
     "label": "Home",
-    "href": "/"
+    "href": "./index.html"
   },
   {
-    "label": "About Us",
-    "href": "/about"
+    "label": "Our Service Area",
+    "href": "./our-service-area.html"
+  },
+  {
+    "label": "Our Team",
+    "href": "./our-team.html"
   },
   {
     "label": "Services",
-    "href": "/services"
+    "href": "./services.html"
   },
   {
     "label": "Contact Us",
-    "href": "/contact"
+    "href": "./contact-us.html"
+  },
+  {
+    "label": "About Us",
+    "href": "./about-us.html"
   }
 ]
