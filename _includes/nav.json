@@ -4,6 +4,10 @@
     "href": "./index.html"
   },
   {
+    "label": "Services",
+    "href": "./services.html"
+  },
+  {
     "label": "Contact Us",
     "href": "./contact-us.html"
   },
