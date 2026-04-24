@@ -4,8 +4,18 @@
     "href": "./index.html"
   },
   {
+    "label": "Our Team",
+    "href": "./our-team.html"
+  },
+  {
     "label": "Services",
-    "href": "./services.html"
+    "href": "./services.html",
+    "children": [
+      {
+        "label": "Brick Repointing",
+        "href": "./testing.html"
+      }
+    ]
   },
   {
     "label": "Contact Us",
