@@ -1,28 +1,28 @@
 [
   {
-    "label": "Home",
-    "href": "./index.html"
+    "href": "./index.html",
+    "label": "Home"
   },
   {
-    "label": "Our Team",
-    "href": "./our-team.html"
+    "href": "./our-team.html",
+    "label": "Our Team"
   },
   {
-    "label": "Services",
     "href": "./services.html",
+    "label": "Services",
     "children": [
       {
-        "label": "Brick Repointing",
-        "href": "./testing.html"
+        "href": "./testing.html",
+        "label": "Brick Repointing"
       }
     ]
   },
   {
-    "label": "Contact Us",
-    "href": "./contact-us.html"
+    "href": "./contact-us.html",
+    "label": "Contact Us"
   },
   {
-    "label": "About Us",
-    "href": "./about-us.html"
+    "href": "./about-us.html",
+    "label": "About Us"
   }
 ]
