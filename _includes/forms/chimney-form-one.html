@@ -70,6 +70,129 @@
             </div>
         </div>
 
+        <!-- Address -->
+        <!-- Street Address -->
+        <div>
+            <label for="input_addr_line1" class="block text-[14px] font-bold text-white mb-2">
+                Street Address <span class="text-primary">*</span>
+            </label>
+            <input
+                type="text"
+                id="input_addr_line1"
+                name="addr_line1"
+                placeholder="123 Main St"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                required
+            >
+        </div>
+
+        <!-- Apt, Suite, Unit -->
+        <div>
+            <label for="input_addr_line2" class="block text-[14px] font-bold text-white mb-2">
+                Apt, Suite, Unit <span class="text-white/50 font-normal text-[12px]">(optional)</span>
+            </label>
+            <input
+                type="text"
+                id="input_addr_line2"
+                name="addr_line2"
+                placeholder="Apt 4B"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+            >
+        </div>
+
+        <!-- City + State + Zip -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+                <label for="input_city" class="block text-[14px] font-bold text-white mb-2">
+                    City <span class="text-primary">*</span>
+                </label>
+                <input
+                    type="text"
+                    id="input_city"
+                    name="city"
+                    placeholder="Los Angeles"
+                    class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                    required
+                >
+            </div>
+            <div>
+                <label for="input_state" class="block text-[14px] font-bold text-white mb-2">
+                    State <span class="text-primary">*</span>
+                </label>
+                <select
+                    id="input_state"
+                    name="state"
+                    class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                    required
+                >
+                    <option value="">Select a state</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California" selected>California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                </select>
+            </div>
+            <div>
+                <label for="input_zip" class="block text-[14px] font-bold text-white mb-2">
+                    Zip Code <span class="text-primary">*</span>
+                </label>
+                <input
+                    type="number"
+                    id="input_zip"
+                    name="zip"
+                    placeholder="90001"
+                    class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                    required
+                >
+            </div>
+        </div>
+
         <!-- I Am Interested In -->
         <div>
             <label for="interest" class="block text-[14px] font-bold text-white mb-2">
