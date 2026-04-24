@@ -18,11 +18,11 @@
     ]
   },
   {
-    "href": "./contact-us.html",
-    "label": "Contact Us"
-  },
-  {
     "href": "./about-us.html",
     "label": "About Us"
+  },
+  {
+    "href": "./contact-us.html",
+    "label": "Contact Us"
   }
 ]
