@@ -1,0 +1,165 @@
+<!-- ============================================================ -->
+    <!-- PREVIEW WRAPPER — remove this div when embedding in a section -->
+    <div class="max-w-[800px] mx-auto px-4 py-12">
+    <!-- ============================================================ -->
+
+    <!-- ChimneyFormTwo: Fields based on HumbleSweeps contact form -->
+    <!-- FormSpree: Replace YOUR_FORM_ID with your actual Formspree form ID -->
+    <form
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        class="space-y-6 bg-dark-form p-8 md:p-10 border border-gray-800 shadow-xl w-full"
+    >
+
+        <!-- Name + Phone -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+                <label for="name" class="block text-[14px] font-bold text-white mb-2">
+                    Name <span class="text-primary">*</span>
+                </label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your full name"
+                    class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                    required
+                >
+            </div>
+            <div>
+                <label for="phone" class="block text-[14px] font-bold text-white mb-2">
+                    Phone <span class="text-primary">*</span>
+                </label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="(262) 555-0000"
+                    class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                    required
+                >
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label for="email" class="block text-[14px] font-bold text-white mb-2">
+                Email <span class="text-primary">*</span>
+            </label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                required
+            >
+        </div>
+
+        <!-- Address Block -->
+        <div class="space-y-3">
+            <label class="block text-[14px] font-bold text-white">
+                Address <span class="text-primary">*</span>
+            </label>
+            <input
+                type="text"
+                id="street_address"
+                name="street_address"
+                placeholder="Street Address"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                required
+            >
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    placeholder="City"
+                    class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                    required
+                >
+                <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    placeholder="State / Province / Region"
+                    class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                    required
+                >
+            </div>
+        </div>
+
+        <!-- Chimney / Fireplace / Dryer Vent Service -->
+        <div>
+            <label for="service_type" class="block text-[14px] font-bold text-white mb-2">
+                Chimney, Fireplace, or Dryer Vent Service? <span class="text-primary">*</span>
+            </label>
+            <input
+                type="text"
+                id="service_type"
+                name="service_type"
+                placeholder="e.g. Chimney Sweep, Inspection…"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                required
+            >
+        </div>
+
+        <!-- How Many Fireplaces -->
+        <div>
+            <label for="fireplace_count" class="block text-[14px] font-bold text-white mb-2">
+                How Many Fireplaces Do You Have? <span class="text-primary">*</span>
+            </label>
+            <input
+                type="text"
+                id="fireplace_count"
+                name="fireplace_count"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+                required
+            >
+        </div>
+
+        <!-- Type of Fireplace -->
+        <div>
+            <label for="fireplace_type" class="block text-[14px] font-bold text-white mb-2">
+                What Type of Fireplace?
+                <span class="text-white/50 font-normal text-[12px]">(Woodburning, Gas, Electric)</span>
+            </label>
+            <input
+                type="text"
+                id="fireplace_type"
+                name="fireplace_type"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors"
+            >
+        </div>
+
+        <!-- Message -->
+        <div>
+            <label for="message" class="block text-[14px] font-bold text-white mb-2">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us about your chimney or fireplace needs…"
+                class="w-full px-4 py-3 bg-white text-gray-900 border border-transparent focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors resize-none"
+            ></textarea>
+        </div>
+
+        <!-- Formspree honeypot spam filter -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <!-- Submit -->
+        <div>
+            <button
+                type="submit"
+                id="chimney-form-two-submit"
+                class="w-full bg-primary hover:bg-[#C25105] text-white font-bold px-6 py-4 uppercase tracking-[0.8px] text-[14px] transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-dark-form"
+            >
+                Contact Us
+            </button>
+        </div>
+
+    </form>
+
+    <!-- ============================================================ -->
+    <!-- END PREVIEW WRAPPER — remove the opening and closing wrapper divs when embedding -->
+    </div>
+    <!-- ============================================================ -->
