@@ -62,6 +62,12 @@ var siteData = siteDataStr ? JSON.parse(siteDataStr) : {};
 var PAGE_DATA_DIR = path.join(INCLUDES_DIR, 'page-data');
 console.log("   Site data: " + (siteDataStr ? Object.keys(siteData).length + " var(s)" : "none"));
 
+// ── Read page robots config ─────────────────────────────────────────────────
+
+var pageRobotsStr = readJsonInclude(path.join(INCLUDES_DIR, 'page-robots.json'));
+var pageRobots = pageRobotsStr ? JSON.parse(pageRobotsStr) : {};
+console.log("   Page robots: " + (pageRobotsStr ? Object.keys(pageRobots).length + " page(s) with overrides" : "none"));
+
 // ── Read nav data ───────────────────────────────────────────────────────────
 
 var navJsonStr = readJsonInclude(path.join(INCLUDES_DIR, 'nav.json'));
@@ -282,6 +288,17 @@ for (var i = 0; i < htmlFiles.length; i++) {
         }
     }
 
+    // ── Robots meta injection ──
+    var robotsConfig = pageRobots[file] || {};
+    var robotsDirectives = [];
+    if (robotsConfig.noindex) robotsDirectives.push('noindex');
+    if (robotsConfig.nofollow) robotsDirectives.push('nofollow');
+    if (robotsDirectives.length > 0) {
+        var robotsMeta = '<meta name="robots" content="' + robotsDirectives.join(', ') + '">';
+        html = html.replace('</head>', '    ' + robotsMeta + '\n</head>');
+        console.log('   Robots: ' + file + ' → ' + robotsDirectives.join(', '));
+    }
+
     fs.writeFileSync(outputPath, html, 'utf8');
     processedPages.push(file);
     console.log("   OK: " + file);
@@ -311,7 +328,9 @@ if (fs.existsSync(configPath)) {
 }
 
 if (sitemapDomain) {
-    var urls = processedPages.map(function(file) {
+    var urls = processedPages.filter(function(file) {
+        return !(pageRobots[file] && pageRobots[file].excludeSitemap);
+    }).map(function(file) {
         var isIndex = file === 'index.html' || file === 'home.html';
         var loc = isIndex ? sitemapDomain + '/' : sitemapDomain + '/' + file;
         return '  <url>\n    <loc>' + loc + '</loc>\n  </url>';
