@@ -1,6 +1,10 @@
 [
   {
-    "href": "./index.html",
-    "label": "Home"
+    "label": "Home",
+    "href": "./index.html"
+  },
+  {
+    "label": "About Us",
+    "href": "./about-us.html"
   }
 ]
