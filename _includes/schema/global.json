@@ -1,0 +1,101 @@
+{
+  "@graph": [
+    {
+      "@id": "https://example.com/#business",
+      "url": "https://example.com",
+      "logo": "https://production-cdn.whalesyncusercontent.com/v2/d9aeb357dc2e314177b4b0a2/67c90f9f57ee4273550db7a0/c0c3826f5bb593abf4e4caa6/Screenshot-2026-03-17-at-10.44.51-AM.png",
+      "name": "Mr Chimney Service Inc.",
+      "@type": "LocalBusiness",
+      "image": "https://production-cdn.whalesyncusercontent.com/v2/d9aeb357dc2e314177b4b0a2/67c90f9f57ee4273550db7a0/c0c3826f5bb593abf4e4caa6/Screenshot-2026-03-17-at-10.44.51-AM.png",
+      "sameAs": [
+        "https://www.facebook.com/p/Mr-Chimney-Sweep-61575721753183/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "91352",
+        "addressRegion": "CA",
+        "streetAddress": "7736 Ferncola Ave",
+        "addressCountry": "US",
+        "addressLocality": "Sun Valley"
+      },
+      "founder": {
+        "name": "Jane Doe",
+        "@type": "Person"
+      },
+      "telephone": "(818) 619-7777",
+      "areaServed": [
+        {
+          "name": "San Diego",
+          "@type": "City"
+        },
+        {
+          "name": "San Francisco",
+          "@type": "City"
+        },
+        {
+          "name": "CA",
+          "@type": "State"
+        }
+      ],
+      "priceRange": "$$",
+      "foundingDate": "2015",
+      "hasCredential": [
+        {
+          "name": "CSIA",
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": "5",
+        "ratingValue": "50",
+        "reviewCount": "280"
+      },
+      "hasOfferCatalog": {
+        "name": "Services",
+        "@type": "OfferCatalog",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Chimney Sweeping",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Waterproofing",
+              "@type": "Service"
+            }
+          }
+        ]
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "opens": "08:00",
+          "closes": "17:00",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://example.com/#website",
+      "url": "https://example.com",
+      "name": "Mr Chimney Service Inc.",
+      "@type": "WebSite",
+      "publisher": {
+        "@id": "https://example.com/#business"
+      }
+    }
+  ],
+  "@context": "https://schema.org"
+}
