@@ -1,4 +1,7 @@
 {
+  "about-us.html": {
+    "excludeSitemap": true
+  },
   "index.html": {
     "excludeSitemap": true
   }
