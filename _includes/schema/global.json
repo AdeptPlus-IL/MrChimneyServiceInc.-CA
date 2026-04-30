@@ -22,7 +22,7 @@
         "name": "Jane Doe",
         "@type": "Person"
       },
-      "telephone": "(818) 619-7777",
+      "telephone": "(818) 619-9999",
       "areaServed": [
         {
           "name": "San Diego",
@@ -50,7 +50,7 @@
         "@type": "AggregateRating",
         "bestRating": "5",
         "ratingValue": "50",
-        "reviewCount": "280"
+        "reviewCount": "290"
       },
       "hasOfferCatalog": {
         "name": "Services",
