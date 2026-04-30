@@ -49,8 +49,8 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "bestRating": "5",
-        "ratingValue": "50",
-        "reviewCount": "290"
+        "ratingValue": "4.7",
+        "reviewCount": "260"
       },
       "hasOfferCatalog": {
         "name": "Services",
