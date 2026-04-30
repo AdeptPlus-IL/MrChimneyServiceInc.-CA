@@ -22,7 +22,7 @@
         "name": "Jane Doe",
         "@type": "Person"
       },
-      "telephone": "(818) 619-9999",
+      "telephone": "{{phone}}",
       "areaServed": [
         {
           "name": "San Diego",
