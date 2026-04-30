@@ -1,5 +1,8 @@
 {
   "chimney-sweeping.html": {
     "excludeSitemap": true
+  },
+  "about-us.html": {
+    "excludeSitemap": true
   }
 }
