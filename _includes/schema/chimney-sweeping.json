@@ -1,1 +1,32 @@
-"[\n  {\n    \"@id\": \"https://mrchimneyserviceinc--ca.pages.dev/chimney-sweeping#service\",\n    \"url\": \"https://mrchimneyserviceinc--ca.pages.dev/chimney-sweeping\",\n    \"name\": \"Chimney Sweeping\",\n    \"@type\": \"Service\",\n    \"@context\": \"https://schema.org\",\n    \"provider\": {\n      \"@id\": \"https://mrchimneyserviceinc--ca.pages.dev/#business\"\n    },\n    \"description\": \"Chimney Sweeping in Los Angeles for your home\",\n    \"aggregateRating\": {\n      \"@type\": \"AggregateRating\",\n      \"ratingValue\": \"5\",\n      \"reviewCount\": \"265\"\n    }\n  },\n  {\n    \"@type\": \"FAQPage\",\n    \"@context\": \"https://schema.org\",\n    \"mainEntity\": [\n      {\n        \"name\": \"What is Chimney Sweeping?\",\n        \"@type\": \"Question\",\n        \"acceptedAnswer\": {\n          \"text\": \"Chimney sweeping is a very meticulous process.\",\n          \"@type\": \"Answer\"\n        }\n      }\n    ]\n  }\n]"
+[
+  {
+    "@id": "https://mrchimneyserviceinc--ca.pages.dev/chimney-sweeping#service",
+    "url": "https://mrchimneyserviceinc--ca.pages.dev/chimney-sweeping",
+    "name": "Chimney Sweeping",
+    "@type": "Service",
+    "@context": "https://schema.org",
+    "provider": {
+      "@id": "https://mrchimneyserviceinc--ca.pages.dev/#business"
+    },
+    "description": "Chimney Sweeping in Los Angeles for your home",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "250"
+    }
+  },
+  {
+    "@type": "FAQPage",
+    "@context": "https://schema.org",
+    "mainEntity": [
+      {
+        "name": "What is Chimney Sweeping?",
+        "@type": "Question",
+        "acceptedAnswer": {
+          "text": "Chimney sweeping is a very meticulous process.",
+          "@type": "Answer"
+        }
+      }
+    ]
+  }
+]
