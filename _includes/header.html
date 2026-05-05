@@ -1,0 +1,69 @@
+<section class="w-full bg-black text-white">
+        <!-- Container -->
+        <div class="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-3 flex flex-col md:flex-row justify-between items-center text-sm md:text-base">
+            <!-- Left Side -->
+            <div class="flex items-center gap-6 mb-3 md:mb-0">
+                <a href="/resources" class="hover:text-primary transition-colors duration-300">Resources</a>
+                <a href="/service-area" class="hover:text-primary transition-colors duration-300">Service Area</a>
+            </div>
+            
+            <!-- Right Side -->
+            <div class="flex items-center gap-6">
+                <span class="opacity-90">M&ndash;F 7am&ndash;5pm</span>
+                <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <a href="tel:{{phone}}" class="font-bold hover:text-primary transition-colors duration-300 text-[16px]">{{phone}}</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Header Section -->
+    <header class="w-full bg-white text-dark border-b border-borderGray relative z-50">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-4 flex justify-between items-center">
+            
+            <!-- Logo -->
+            <a href="./home.html" class="flex-shrink-0">
+                <img alt="logo.png" srcset="https://images.adept.plus/MrChimneyServiceInc.-CA/logo.png/thumbnail 200w, https://images.adept.plus/MrChimneyServiceInc.-CA/logo.png/largethumbnail 400w, https://images.adept.plus/MrChimneyServiceInc.-CA/logo.png/highres 1920w" sizes="(max-width: 600px) 200px, (max-width: 1024px) 400px, 1920px" src="https://images.adept.plus/MrChimneyServiceInc.-CA/logo.png/highres" alt="Mr Chimney Service Inc Logo" class="h-16 md:h-20 w-auto object-contain brightness-0" onerror="this.onerror=null; this.src='https://placehold.co/168x80/1A1A18/FFF?text=MR+CHIMNEY'" />
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden flex items-center p-2 text-dark hover:text-primary transition-colors focus:outline-none" aria-label="Toggle navigation">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center gap-6 lg:gap-8 font-bold text-base text-dark">
+                <!-- NAV_ITEMS_DESKTOP -->
+            </nav>
+
+            <!-- Desktop Button -->
+            <div class="hidden md:block">
+                <a href="/estimate" class="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-bold uppercase text-[14px] tracking-[0.35px] hover:bg-opacity-90 transition-all duration-300 h-12">
+                    Get a Free Estimate
+                </a>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-borderGray">
+            <nav class="flex flex-col px-4 pt-2 pb-6 space-y-4 shadow-xl text-dark">
+                <!-- NAV_ITEMS_MOBILE -->
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+    </script>
