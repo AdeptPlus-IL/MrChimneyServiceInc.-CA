@@ -38,6 +38,7 @@
         }
       ],
       "priceRange": "$$",
+      "description": "Testing description",
       "foundingDate": "2015",
       "hasCredential": [
         {
